@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import InstallButton from "./components/InstallButton";
 import {
   HeartPulse,
   Languages,
@@ -1317,8 +1318,12 @@ function App() {
           )}
         </div>
       )}
+
+      <InstallButton />
     </>
   );
+
+
 }
 
 export default App;
